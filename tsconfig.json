@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "lib": ["ES2020", "DOM", "ESNext"],
+    "jsx": "react",
+    "module": "esnext",
+    "moduleResolution": "Node",
+    "target": "es5",
+    "strict": false,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@src/*": ["src/*"],
+      "@store/*": ["store/*"],
+      "@assets/*": ["assets/*"],
+      "@app/*": ["app/*"],
+      "@layouts/*": ["layouts/*"],
+      "@hooks/*": ["hooks/*"],
+      "@components/*": ["components/*"],
+      "@pages/*": ["pages/*"],
+      "@utils/*": ["utils/*"],
+      "@typings/*": ["typings/*"]
+    },
+    "typeRoots": ["custom"]
+  },
+  "exclude": ["node_modules", "**/*.png"],
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    "src/typings/hrefLink.ts",
+    "src/components/dataDisplay/InputValidMessage"
+  ]
+}

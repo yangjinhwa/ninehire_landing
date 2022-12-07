@@ -1,0 +1,7 @@
+.idea
+node_modules
+dist/
+*.webpack.lock.data
+*.env
+
+node_modules
